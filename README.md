@@ -1,5 +1,7 @@
 # Min-Yu 個人作品集網站 🚀
 
+https://min-yu-portfolio-showcase-v1.vercel.app/
+
 這是我的個人網站，展示了我的個人技能、經驗和項目的作品集網站。
 
 ## ✨ 功能特點
