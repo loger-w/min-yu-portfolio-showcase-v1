@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "language": {
+    "zh-TW": "繁體中文",
+    "en": "English",
+    "switch": "Switch Language"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+} 

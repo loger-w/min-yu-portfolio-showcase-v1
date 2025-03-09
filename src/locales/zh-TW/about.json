@@ -1,0 +1,23 @@
+{
+    "experience": "工作經歷",
+    "role-inteware": "軟體工程師",
+    "period-inteware": "2024-10 - 至今",
+    "company-inteware": "英特崴股份有限公司",
+    "description-inteware-1": "優化檢視 3D 模型，透過 Web Worker 預解析 3D 模型，有效減少使用者加載模型時間 90%。",
+    "description-inteware-2": "開發批次資料上傳、管理功能，協助使用者快速管理患者資訊，能有效減少 30% 的資料管理時間。",
+    "description-inteware-3": "導入 Zustand 管理狀態至團隊，提升開發團隊的開發效率。",
+    "description-inteware-4": "將專案的 React 17 升級至 React 18。",
+    "role-intern": "軟體工程師 實習生",
+    "period-intern": "2022-02 - 2022-09",
+    "company-intern": "聖瑋科技工作室",
+    "description-intern-1": "優化點餐 App，新增額外選項功能（如加辣）及歷史訂單查詢功能，縮短點餐流程的時間 50%。",
+    "description-intern-2": "優化購物網站中 container、 tab 及 header 的切換功能，實現了動態顯示內容的自動高度調整，並減少了計算顯示內容的複雜度，將使用者加載頁面的時間減少 20%。",
+    "description-intern-3": "使用 Cypress 自動化測試框架，針對網站中加購商品、結帳等流程進行測試，讓測試人員的時間減少 80%。",
+    "education": "教育背景",
+    "degree-master": "資訊工程系 - 碩士",
+    "period-master": "2023-02 - 2025-01",
+    "school-master": "國立臺中科技大學",
+    "award": "獎項",
+    "award-1-name": "Northern Taiwan GDSC Hackathon 第三名",
+    "award-1-period": "2021 年獲得"
+}

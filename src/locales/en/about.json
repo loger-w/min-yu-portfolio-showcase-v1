@@ -1,0 +1,23 @@
+{
+    "experience": "Experience",
+    "role-inteware": "Software Engineer",
+    "period-inteware": "2024-10 - Present",
+    "company-inteware": "Inteware",
+    "description-inteware-1": "Optimized the viewing of 3D models, effectively reducing the loading time of 3D models by 90% through Web Workers.",
+    "description-inteware-2": "Developed batch data upload and management features, assisting users in quickly managing patient information, effectively reducing data management time by 30%.",
+    "description-inteware-3": "Introduced Zustand state management to the team, improving the development team's efficiency.",
+    "description-inteware-4": "Upgraded the project from React 17 to React 18.",
+    "role-intern": "Software Engineer Intern",
+    "period-intern": "2022 Feb - 2022 Sep",
+    "company-intern": "聖瑋科技工作室",
+    "description-intern-1": "Optimized the ordering app, added additional options (such as adding chili) and history order query functions, reducing the ordering process time by 50%.",
+    "description-intern-2": "Optimized the shopping website's container, tab, and header switching functions, achieving dynamic content display height adjustment, reducing the complexity of calculating displayed content, and reducing the user loading page time by 20%.",
+    "description-intern-3": "Used the Cypress automated testing framework to test the processes of adding items to the cart and checking out, reducing the testing time by 80%.",
+    "education": "Education",
+    "degree-master": "Master of Department of Computer Science and Information Engineering",
+    "period-master": "2023 Feb - 2025 Jan",
+    "school-master": "National Taichung University of Science and Technology",
+    "award": "Awards",
+    "award-1-name": "Third Place in Northern Taiwan GDSC Hackathon",
+    "award-1-period": "2021"
+}
