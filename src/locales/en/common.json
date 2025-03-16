@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-    "projects": "Projects"
+    "projects": "Projects",
+    "language": "Language"
   },
   "language": {
     "zh-TW": "繁體中文",

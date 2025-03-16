@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Github, Linkedin } from 'lucide-react'
 
 export default function Home() {
   const { t, i18n } = useTranslation('home')
@@ -42,9 +43,35 @@ export default function Home() {
         <span className={`${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity text-white`}>|</span>
       </h2>
 
-      <p className="text-lg text-blue-100/90 mb-10 leading-relaxed">
+      <p className="text-lg text-blue-100/90 mb-6 leading-relaxed">
         {t('intro')}
       </p>
+      
+      {/* 連結 */}
+      <div className="flex space-x-4 mb-10">
+        <a 
+          href="https://github.com/loger-w" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center space-x-2 px-4 py-2 bg-blue-900/30 rounded-md text-blue-200 hover:bg-blue-800/50 hover:text-white transition-colors"
+          aria-label="GitHub"
+          tabIndex={0}
+        >
+          <Github className="h-5 w-5" />
+          <span className="text-sm font-medium">GitHub</span>
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/min-yu-xu-6953382a0/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center space-x-2 px-4 py-2 bg-blue-900/30 rounded-md text-blue-200 hover:bg-blue-800/50 hover:text-white transition-colors"
+          aria-label="LinkedIn"
+          tabIndex={0}
+        >
+          <Linkedin className="h-5 w-5" />
+          <span className="text-sm font-medium">LinkedIn</span>
+        </a>
+      </div>
     </div>
   )
 } 

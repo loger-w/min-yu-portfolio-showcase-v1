@@ -11,7 +11,7 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -138,6 +138,32 @@ export default function Layout({ children }: LayoutProps) {
                   {item.name}
                 </Link>
               ))}
+              
+              {/* 手機版語言切換器 */}
+              <div className="pt-2 border-t border-blue-900/30">
+                <div className="flex items-center justify-between">
+                  <div className="text-sm text-blue-200/80">{t('nav.language')}</div>
+                  <div className="flex space-x-2">
+                    {['zh-TW', 'en'].map((lang) => (
+                      <button
+                        key={lang}
+                        onClick={() => {
+                          i18n.changeLanguage(lang);
+                          setIsMenuOpen(false);
+                        }}
+                        className={cn(
+                          "px-3 py-1 text-sm rounded-md",
+                          i18n.language === lang 
+                            ? "bg-blue-800 text-white" 
+                            : "bg-blue-900/30 text-blue-200 hover:bg-blue-800/50"
+                        )}
+                      >
+                        {t(`language.${lang}`)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </nav>
           </div>
         )}
