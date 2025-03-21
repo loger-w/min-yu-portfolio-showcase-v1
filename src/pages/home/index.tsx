@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Github, Linkedin } from 'lucide-react'
+import { FaFileAlt } from 'react-icons/fa'
 
 export default function Home() {
   const { t, i18n } = useTranslation('home')
@@ -70,6 +71,17 @@ export default function Home() {
         >
           <Linkedin className="h-5 w-5" />
           <span className="text-sm font-medium">LinkedIn</span>
+        </a>
+        <a 
+          href="https://docs.google.com/document/d/1AViwLIXLLs4p1WAY9JzkeepViGV8kKTu/edit?usp=sharing&ouid=111616879644414678607&rtpof=true&sd=true" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center space-x-2 px-4 py-2 bg-blue-900/30 rounded-md text-blue-200 hover:bg-blue-800/50 hover:text-white transition-colors"
+          aria-label="Resume"
+          tabIndex={0}
+        >
+          <FaFileAlt className="h-5 w-5" />
+          <span className="text-sm font-medium">{t('resume')}</span>
         </a>
       </div>
     </div>
