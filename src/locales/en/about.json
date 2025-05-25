@@ -1,7 +1,10 @@
 {
     "experience": "Experience",
+    "role-gobuid": "Software Engineer",
+    "period-gobuid": "2025-05 - Present",
+    "company-gobuid": "GoBuid",
     "role-inteware": "Software Engineer",
-    "period-inteware": "2024-10 - Present",
+    "period-inteware": "2024-10 - 2025-05",
     "company-inteware": "Inteware",
     "description-inteware-1": "Optimized the viewing of 3D models, effectively reducing the loading time of 3D models by 90% through Web Workers.",
     "description-inteware-2": "Developed batch data upload and management features, assisting users in quickly managing patient information, effectively reducing data management time by 30%.",

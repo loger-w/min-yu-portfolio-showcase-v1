@@ -17,6 +17,24 @@ export default function About() {
           <div className="relative pl-8 border-l border-blue-700/50">
             <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-blue-500"></div>
             <div className="flex flex-col md:flex-row md:items-center mb-2">
+              <h3 className="text-xl font-medium text-white">{t('role-gobuid')}</h3>
+              <div className="md:ml-auto flex items-center text-sm text-blue-300">
+                <Calendar className="mr-1 h-4 w-4" />
+                {t('period-gobuid')}
+              </div>
+            </div>
+            <p className="text-blue-200 mb-2">{t('company-gobuid')}</p>
+            <ul className="list-disc list-inside text-blue-100/90 space-y-2">
+              {/* <li>{t('description-inteware-1')}</li>
+              <li>{t('description-inteware-2')}</li>
+              <li>{t('description-inteware-3')}</li>
+              <li>{t('description-inteware-4')}</li> */}
+            </ul>
+          </div>
+
+          <div className="relative pl-8 border-l border-blue-700/50">
+            <div className="absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-blue-500"></div>
+            <div className="flex flex-col md:flex-row md:items-center mb-2">
               <h3 className="text-xl font-medium text-white">{t('role-inteware')}</h3>
               <div className="md:ml-auto flex items-center text-sm text-blue-300">
                 <Calendar className="mr-1 h-4 w-4" />

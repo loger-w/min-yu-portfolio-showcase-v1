@@ -1,7 +1,10 @@
 {
     "experience": "工作經歷",
+    "role-gobuid": "軟體工程師",
+    "period-gobuid": "2025-05 - 至今",
+    "company-gobuid": "吉寶科技有限公司",
     "role-inteware": "軟體工程師",
-    "period-inteware": "2024-10 - 至今",
+    "period-inteware": "2024-10 - 2025-05",
     "company-inteware": "英特崴股份有限公司",
     "description-inteware-1": "優化檢視 3D 模型，透過 Web Worker 預解析 3D 模型，有效減少使用者加載模型時間 90%。",
     "description-inteware-2": "開發批次資料上傳、管理功能，協助使用者快速管理患者資訊，能有效減少 30% 的資料管理時間。",
