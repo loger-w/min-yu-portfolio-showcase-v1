@@ -16,7 +16,8 @@ import {
   SiNestjs,
   SiVite,
   SiAntdesign,
-  SiShadcnui
+  SiShadcnui,
+  SiNextdotjs
 } from 'react-icons/si'
 import { useTranslation } from 'react-i18next'
 
@@ -25,6 +26,7 @@ export default function Skills() {
 
   // 技能數據 - 按類別分組
   const frontendSkills = [
+    { name: 'Next.js', icon: <SiNextdotjs className="h-10 w-10" /> },
     { name: 'React', icon: <FaReact className="h-10 w-10" /> },
     { name: 'Angular', icon: <FaAngular className="h-10 w-10" /> },
     { name: 'JavaScript', icon: <SiJavascript className="h-10 w-10" /> },
@@ -42,6 +44,7 @@ export default function Skills() {
 
   const stateManagementSkills = [
     { name: 'Zustand', icon: <Database className="h-10 w-10" /> },
+    { name: 'Redux', icon: <Database className="h-10 w-10" /> },
   ]
 
   const backendSkills = [
