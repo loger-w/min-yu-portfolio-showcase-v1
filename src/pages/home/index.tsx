@@ -9,6 +9,11 @@ export default function Home() {
   const fullText = t('role')
   const [showCursor, setShowCursor] = useState(true)
 
+  // 根據語系決定履歷連結
+  const resumeUrl = i18n.language === 'zh-TW' 
+    ? 'https://docs.google.com/document/d/1O-kzxPLYvnVMDEKXH4e_NXVkRW9HXWPc/edit?usp=sharing&ouid=111616879644414678607&rtpof=true&sd=true'
+    : 'https://docs.google.com/document/d/1AViwLIXLLs4p1WAY9JzkeepViGV8kKTu/edit?usp=sharing&ouid=111616879644414678607&rtpof=true&sd=true'
+
   // 打字機效果
   useEffect(() => {
     // 當語言變更時，重置打字機效果
@@ -73,7 +78,7 @@ export default function Home() {
           <span className="text-sm font-medium">LinkedIn</span>
         </a>
         <a 
-          href="https://docs.google.com/document/d/1AViwLIXLLs4p1WAY9JzkeepViGV8kKTu/edit?usp=sharing&ouid=111616879644414678607&rtpof=true&sd=true" 
+          href={resumeUrl} 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center space-x-2 px-4 py-2 bg-blue-900/30 rounded-md text-blue-200 hover:bg-blue-800/50 hover:text-white transition-colors"

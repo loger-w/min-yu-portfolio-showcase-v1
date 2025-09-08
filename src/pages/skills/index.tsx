@@ -44,7 +44,7 @@ export default function Skills() {
 
   const stateManagementSkills = [
     { name: 'Zustand', icon: <Database className="h-10 w-10" /> },
-    { name: 'Redux', icon: <Database className="h-10 w-10" /> },
+    { name: 'Redux Toolkit', icon: <Database className="h-10 w-10" /> },
   ]
 
   const backendSkills = [
