@@ -30,6 +30,7 @@ export default function About() {
               <li>{t("description-GoBuid-1")}</li>
               <li>{t("description-GoBuid-2")}</li>
               <li>{t("description-GoBuid-3")}</li>
+              <li>{t("description-GoBuid-4")}</li>
             </ul>
           </div>
 
@@ -50,7 +51,6 @@ export default function About() {
               <li>{t("description-inteware-1")}</li>
               <li>{t("description-inteware-2")}</li>
               <li>{t("description-inteware-3")}</li>
-              <li>{t("description-inteware-4")}</li>
             </ul>
           </div>
 
